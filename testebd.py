@@ -5,7 +5,7 @@ conn = psycopg2.connect(
     port=5432,
     dbname="testdb",
     user="postgres",
-    password="Eric1234/"
+    password="senha"
 )
 
 print("Conectado com sucesso")
