@@ -8,7 +8,7 @@ def get_connection():
         database=os.environ["DB_NAME"],
         user=os.environ["DB_USER"],
         password=os.environ["DB_PASSWORD"],
-        port=os.environ.get("DB_PORT", 5432)
+        port=os.environ.get("DB_PORT")
     )
 
 def get_db():
